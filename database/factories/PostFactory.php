@@ -21,7 +21,7 @@ class PostFactory extends Factory
             'title' => fake()->sentence(3),
             'content' => fake()->paragraphs(10, true),
             'lead' => fake()->text(200),
-            'author_id' => random_int(1, 20),
+            'author_id' => random_int(1, 5),
             'topic_id' => random_int(1, 3)
         ];
     }
