@@ -24,7 +24,7 @@ class DatabaseSeeder extends Seeder
         //     'name' => 'Test User',
         //     'email' => 'test@example.com',
         // ]);
-        User::factory(20)->create();
+        User::factory(5)->create();
 
         Topic::create(['name' => 'Featured Sites', 'slug' => 'featured']);
         Topic::create(['name' => 'Useful Links', 'slug' => 'links']);
